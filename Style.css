@@ -1,0 +1,209 @@
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:'Dosis', sans-serif;
+  font-size:20px;
+  background-color: #000233;
+  margin: 0;
+  padding: 0;
+}
+.menu-bar{
+  background-color: black;
+  text-align: center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+  transition: font-size .2s ease;
+}
+.menu-bar ul li{
+  width: 100px;
+  margin: 15px;
+  padding: 5px;
+}
+.menu-bar ul li:hover{
+  background: rgb(145, 145, 145);
+  border-radius: 3px;
+  font-size: 25px;
+  transition: font-size .2s ease;
+}
+.sub-menu{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: darkgray;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotte white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+  color: black;
+}
+section{
+  color:white;
+  background-color: gray ;
+  padding: 10px;
+  font-size: 30px;
+}
+#biginfo{
+  color: white;
+  background-color: rgb(202,0,0);
+  margin-left: 300px;
+  margin-right: 300px;
+  border: none;
+  border-radius: 5px;
+}
+#smallinfo{
+  color: white;
+  margin-top: 400px;
+  margin-bottom: 250px;
+}
+#tiktok{
+  margin: 20px;
+  color: white;
+}
+#twitch{
+  margin: 20px;
+  color: white;
+}
+#youtube{
+  margin: 20px;
+  color: white;
+}
+#twitter{
+  margin: 20px;
+  color: white;
+}
+#reddit{
+  margin: 20px;
+  color: white;
+}
+#redditimg{
+  height: 300px;
+}
+#insta{
+  color: white;
+  margin: 20px;
+}
+#instaimg{
+  height: 250px;
+  width: 250px;
+}
+#viral{
+  margin: 20px;
+  color: white;
+}
+#title{
+  margin:20px;
+  color: white;
+}
+video{
+  width: 400px;
+  margin-top: 10px;
+}
+#question{
+  width:400px;
+  height: 300px;
+}
+#joke{
+  width: 400px;
+  height: 300px;
+}
+#more{
+  color:white;
+  margin: 20px;
+}
+#muck{
+  width: 400px;
+  height: 300px;
+}
+#pfp{
+  width: 250x;
+  height: 250px;
+  margin: 20px;
+}
+#othertext{
+  color: white;
+  margin: 20px;
+}
+#viralvid{
+  width: 500px;
+  height: 450px;
+}
+#infobutton1{
+  background-color:white;
+  color: black;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#infobutton1:hover{
+  transition: font-size .2s ease;
+  font-size: 25px;
+  background-color: rgb(207, 207, 207);
+}
+#smilypotatotext{
+  color: white;
+  margin: 20px;
+}
+#smilypotatopfp{
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.arts{
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+#homiestext{
+  color: white;
+  margin: 20px;
+}
+.homiesstuff{
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+}
+.hahaha{
+  color: white;
+}
+#footer{
+  color: white;
+  position: sticky;
+  bottom: 0;
+  margin-left: 10px;
+  font-size:15px;
+}
